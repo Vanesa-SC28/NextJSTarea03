@@ -10,7 +10,11 @@ export default function RootLayout({
       <body className={`${montserrat.className} antialiased`}>
         <h1> Este Titulo </h1> 
         <div style ={{border: '1px solid #000'}}>
+          Esto es parte del Layout
           {children}
+          <footer className='py-10 flex justify-center items-center'>
+            Hecho con ♥ 
+          </footer>
         </div>
       </body>
     </html>
